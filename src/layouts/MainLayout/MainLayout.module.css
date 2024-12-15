@@ -1,0 +1,26 @@
+.mainLayout {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+  background-size: 300% 300%;
+  animation: gradientBackground 10s ease infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* @media (prefers-color-scheme: dark) {
+    .mainLayout {
+      background: linear-gradient(-45deg, #141e30, #243b55, #2c5364, #0f2027);
+    }
+  } */

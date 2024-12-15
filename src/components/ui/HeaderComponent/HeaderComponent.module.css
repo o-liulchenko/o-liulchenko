@@ -1,0 +1,15 @@
+.container{
+    position: relative;
+    z-index: 1;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 76px;
+    margin-top: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    position: fixed;
+}
