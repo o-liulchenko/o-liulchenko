@@ -10,8 +10,6 @@ const MainPage: FC<IMainPageProps> = () => {
       <HomeComponent />
       <AboutComponent />
       <SkillsComponent />
-      <WorksComponent />
-      <ContactComponent />
     </div>
   );
 };

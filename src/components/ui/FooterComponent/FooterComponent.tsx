@@ -5,7 +5,7 @@ interface IFooterComponentProps {
 }
 
 const FooterComponent: FC<IFooterComponentProps> = () => {
-  return <footer className={`container`}>FooterComponent</footer>;
+  return <footer className={`container ${styles.footer}`}>FooterComponent</footer>;
 };
 
 export default FooterComponent;
