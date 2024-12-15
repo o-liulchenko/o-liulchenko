@@ -1,0 +1,30 @@
+.container{
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.photo{
+    width: 564px;
+    border-radius: 8px;
+}
+.contentDescription{
+    margin: 38px 0 54px;
+    font-size: 28px;
+}
+.title{
+    font-size: 38px;
+}
+.downloadCV{
+    padding: 19px 28px;
+    border-radius: 6px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #ff9a9e;
+}

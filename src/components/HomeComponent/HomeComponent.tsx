@@ -1,9 +1,9 @@
 import { FC } from "react";
 import styles from "./HomeComponent.module.css";
 
-import github from "../../assets/img/github.png";
-import gmail from "../../assets/img/gmail.png";
-import linkedin from "../../assets/img/linked.png";
+import github from "../../assets/img/github.svg";
+import gmail from "../../assets/img/gmail.svg";
+import linkedin from "../../assets/img/linkedin.svg";
 
 interface IHomeComponentProps {}
 
@@ -24,7 +24,7 @@ const HomeComponent: FC<IHomeComponentProps> = () => {
   ];
 
   return (
-    <section className={`container ${styles.container}`}>
+    <section id="home" className={`container ${styles.container}`}>
       <h1 className={`${styles.nameTitle} titleText`}>Liulchenko Oleksandr</h1>
       <h2 className={`${styles.jobTitle} titleText`}>Fullstack Developer</h2>
       <ul className={styles.contacts}>

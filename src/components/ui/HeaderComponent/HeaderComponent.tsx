@@ -15,7 +15,7 @@ const HeaderComponent: FC<IHeaderComponentProps> = () => {
             title: 'About'
         },
         {
-            id: '#skils',
+            id: '#skills',
             title: 'Skills'
         },
         {

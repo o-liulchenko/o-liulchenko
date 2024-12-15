@@ -1,0 +1,41 @@
+.container{
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+}
+.workImage{
+    width: 564px;
+    object-fit: cover;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.title{
+    font-size: 38px;
+}
+.workTitle{
+    font-size: 28px;
+}
+.workDescription{
+    font-size: 22px;
+}
+.stackList{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.stackItem{
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
