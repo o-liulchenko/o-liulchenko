@@ -32,7 +32,7 @@ const HeaderComponent: FC<IHeaderComponentProps> = () => {
     <header className={`container ${styles.container}`}>
       <nav className={styles.nav}>
         {
-            anchors.map(({id, title}) => <a key={id} href={id}>{title}</a>)
+            anchors.map(({id, title}) => <a className={`titleText`} key={id} href={id}>{title}</a>)
         }
       </nav>
     </header>

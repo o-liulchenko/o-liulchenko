@@ -25,11 +25,11 @@ const HomeComponent: FC<IHomeComponentProps> = () => {
 
   return (
     <section className={`container ${styles.container}`}>
-      <h1 className={styles.h1}>Liulchenko Oleksandr</h1>
-      <h2 className={styles.h2}>Fullstack Developer</h2>
+      <h1 className={`${styles.nameTitle} titleText`}>Liulchenko Oleksandr</h1>
+      <h2 className={`${styles.jobTitle} titleText`}>Fullstack Developer</h2>
       <ul className={styles.contacts}>
         {contacts.map(({ img, link }) => (
-          <li>
+          <li className={styles.icon}>
             <a href={link}>
               <img src={img} />
             </a>
