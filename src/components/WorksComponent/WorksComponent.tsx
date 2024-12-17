@@ -22,7 +22,7 @@ const WorksComponent: FC<IWorksComponentProps> = () => {
     }
   ]
 
-  const [currentWork, setCurrentWork] = useState<IWork>(works[0])
+  const [currentWork, _setCurrentWork] = useState<IWork>(works[0])
   const {title, description, image, stack} = currentWork
 
 

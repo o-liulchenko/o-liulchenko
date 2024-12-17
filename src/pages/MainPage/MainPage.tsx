@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { AboutComponent, ContactComponent, HomeComponent, SkillsComponent, WorksComponent } from "../../components";
+import { AboutComponent, HomeComponent, SkillsComponent } from "../../components";
 
 interface IMainPageProps {}
 

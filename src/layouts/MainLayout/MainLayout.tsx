@@ -7,7 +7,7 @@ const MainLayout = () => {
     <div className={styles.mainLayout}>
       <HeaderComponent />
       <Outlet />
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </div>
   );
 };

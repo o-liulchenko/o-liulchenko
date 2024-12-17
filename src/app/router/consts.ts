@@ -1,7 +1,4 @@
 export const ROUTES = {
-  main: "/",
+  main: "/o-liulchenko/",
+  notFound: "*"
 };
-
-export const createUrl = (url: string, props?: any) => {
-    return url
-}
